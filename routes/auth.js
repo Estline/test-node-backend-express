@@ -41,7 +41,7 @@ router.post('/login', (req, res) => {
     // authenticate user and generate JWT tokens
     const { username, password } = req.body;
     // replace with your own authentication logic
-    if (username === 'user' && password === 'password') {
+    if (username === 'user1' && password === 'password' || username === 'user2' && password === 'password') {
         const user = { username };
         const accessToken = generateAccessToken(user);
         const refreshToken = generateRefreshToken(user);
