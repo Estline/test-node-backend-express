@@ -1,0 +1,17 @@
+# Directories
+node_modules/
+dist/
+tmp/
+logs/
+yarn-error.log
+
+# Files
+.env
+*.log
+*.pid
+*.seed
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
